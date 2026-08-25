@@ -121,12 +121,8 @@ The orchestration script will:
 ├── main.tf              # Infrastructure definition (HCL)
 ├── politici.rego        # Security & governance policies (Rego)
 ├── runCheck.ps1         # Pipeline orchestrator (PowerShell)
-├── tfplan / tfplan.json # Generated execution plan (audited by OPA)
 └── README.md
 ```
-
-> Adjust file names/paths above to match your repository.
-
 ---
 
 ## Roadmap / Future Work
